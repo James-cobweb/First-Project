@@ -171,7 +171,7 @@ body{
     margin-left: 3rem;
     font-weight: 600; 
    }
-   .form .much span{
+   .form .much  .one span{
     font-size:3rem;
     font-weight: 500;
     font-family: whisper;
@@ -179,19 +179,72 @@ body{
     display: flex;
     flex-direction: column;
    }
-   .form .much #own{
+   .form .much .one #own{
     margin-top: -2rem;
     margin-left: 4rem;
    }
-   /*class 11*/
-   @media only screen and ( max-width:480px){
-    .header .nav{
-        flex-direction: column;        
-        gap: 1rem;
-        padding: 1rem;
-    }
-    .nav .links{
-        flex-direction: column;
-    }
+   .form .much .two{
+    border: 2px solid rgba(212, 129, 212, 0.788);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 5px;
    }
-
+   .form .much .two .plus{
+    display: flex;
+    position: relative;
+    right: 30px;
+    top: 10px;
+   }
+   .form .much .two .minus{
+    display: flex;
+    position: relative;
+    right: 30px;
+    top: 10px;
+   }
+   .form .much .two img{
+    width: 120px;
+    height: 90px;
+   }
+   .form .much .two span{
+    font-family: inter;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: 800;
+   }
+   .much .two  .dog small{
+    position: absolute;
+    left: 28px;
+    bottom: 22px;
+   }
+   .much .two  .goat span{
+    position: absolute;
+    left: 160px;
+    bottom: 40px;
+   }
+   .much .two .goat small{
+    position: absolute;
+    bottom: 22px;
+    right: 53px;
+   }
+   .much .two .bird small{
+    position: absolute;
+    bottom:22px;
+    left: 15px;
+   }
+   .much .two .frog span{
+    position: absolute;
+    left: 160px;
+   }
+   .much .two .frog small{
+    position: absolute;
+    right: 55px;
+    bottom: 25px;
+   }
+   
